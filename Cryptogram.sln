@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3D1FA7BB-E498-4111-9556-529CAD4EDC0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptogramApp", "src\CryptogramApp\CryptogramApp.csproj", "{E2FC1027-4713-4106-806A-DAF67F960E5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{01DDEA4A-2275-47BD-82B9-8E93BC4EA2C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptogramApp.Tests", "tests\CryptogramApp.Tests\CryptogramApp.Tests.csproj", "{D43A8868-FDFF-433C-B2EA-148928AD2AFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2FC1027-4713-4106-806A-DAF67F960E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2FC1027-4713-4106-806A-DAF67F960E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2FC1027-4713-4106-806A-DAF67F960E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2FC1027-4713-4106-806A-DAF67F960E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D43A8868-FDFF-433C-B2EA-148928AD2AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43A8868-FDFF-433C-B2EA-148928AD2AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43A8868-FDFF-433C-B2EA-148928AD2AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43A8868-FDFF-433C-B2EA-148928AD2AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2FC1027-4713-4106-806A-DAF67F960E5D} = {3D1FA7BB-E498-4111-9556-529CAD4EDC0B}
+		{D43A8868-FDFF-433C-B2EA-148928AD2AFB} = {01DDEA4A-2275-47BD-82B9-8E93BC4EA2C1}
+	EndGlobalSection
+EndGlobal
