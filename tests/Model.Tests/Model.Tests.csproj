@@ -1,9 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>SleepingBearSystem.Cryptogram.CryptogramApp.Tests</AssemblyName>
-    <RootNamespace>SleepingBearSystem.Cryptogram.CryptogramApp.Tests</RootNamespace>
     <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+
+    <AssemblyName>SleepingBearSystems.Cryptogram.Model.Tests</AssemblyName>
+
+    <RootNamespace>SleepingBearSystems.Cryptogram.Model.Tests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,6 +24,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Model\Model.csproj" />
   </ItemGroup>
 
 </Project>

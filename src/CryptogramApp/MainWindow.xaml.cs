@@ -10,6 +10,9 @@ public partial class MainWindow
     /// </summary>
     public MainWindow()
     {
+        this.DataContext = this._viewModel;
         this.InitializeComponent();
     }
+
+    private readonly CryptogramViewModel _viewModel = new();
 }
